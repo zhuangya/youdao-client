@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should build the correct query 1`] = `
+Object {
+  "appKey": "key",
+  "from": "auto",
+  "q": "world",
+  "salt": "salt",
+  "sign": "adb3038fee34c0a75c93e53f15a8c8d8",
+  "to": "auto",
+}
+`;
+
+exports[`should set from & to properly when translate 1`] = `"https://openapi.youdao.com/api?from=es&to=en&q=Amigo&appKey=key&salt=fixed&sign=62fbddbc961c6edc89dfe9643762fe4a"`;
+
+exports[`should sign request 1`] = `"fe764d51dd60550574e76c600bdfdbd2"`;
+
+exports[`should throw err 1`] = `"500"`;
