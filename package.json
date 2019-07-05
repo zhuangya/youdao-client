@@ -4,14 +4,14 @@
   "description": "youdao js client",
   "main": "index.js",
   "dependencies": {
-    "md5-hex": "^2.0.0",
+    "md5-hex": "^3.0.0",
     "qs": "^6.5.0",
-    "superagent": "^3.5.2"
+    "superagent": "^5.1.0"
   },
   "repository": "zhuangya/youdao-client",
   "devDependencies": {
-    "coveralls": "^2.13.1",
-    "jest": "^20.0.4"
+    "coveralls": "^3.0.4",
+    "jest": "^24.8.0"
   },
   "scripts": {
     "test": "jest --coverage"
